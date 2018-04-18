@@ -1,0 +1,169 @@
+
+.container {
+    position: relative;
+    width:665px;
+    height:890px;
+}
+
+#rectangle{
+    width:100%;
+    height:100%;
+    background:rgb(196, 2, 25);
+    position: center;
+    border-radius: 25px;
+    position: absolute;
+    left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#title {
+
+    position: absolute;
+    top: 2%;
+    left: 33%;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+
+
+}
+
+#user {
+
+    position: absolute;
+    top: 13%;
+    left: 8%;
+    width:85%;
+    
+
+    border-radius: 4px;
+    height: 7.5%;
+}
+
+#password {
+
+    position: absolute;
+    top: 23%;
+    left: 8%;
+    width:85%;
+    border-radius: 4px;
+    height: 7.5%;
+    text-align: right;
+    font-size: 200%;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    
+}
+
+input::placeholder {
+    padding-right: 5%
+}
+
+#but1{
+
+    top: 35%;
+    left: 30%;
+    width: 45%;
+    height: 8%;
+    position: absolute;
+    border-radius: 30px;
+    color: red;
+    text-align: ceter;
+    font-size: 230%;
+    background-color: white;
+
+
+
+}
+
+#msg1{
+
+    top: 44%;
+    left: 32%;
+    width: 45%;
+    height: 8%;
+    position: absolute;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+    
+    font-size: 160%;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    
+
+
+}
+
+#rect-logo{
+    top: 60%;
+    
+    width: 100%;
+    height: 40%;
+    
+    background:#AE0217;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+   
+    
+    
+}
+
+#but-acct{
+    top: 68%;
+    left: 5%;
+    width: 88%;
+    height: 15%;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 180%;
+    text-align: left;
+
+    background-color: white;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX-JMZLVvI78919Wr9mftlkxxCU2u-JTZmwPDe-PciB3c1Q7mTGA');
+    background-size: auto 65%;
+    background-position: 91.5% 61%;
+   background-repeat: no-repeat;
+   
+
+   
+}
+
+#logo{
+
+    
+   background-size: 20% 20%;
+   background-repeat: no-repeat;
+   background-position: left;
+}
+
+#but-acct h3{
+
+    
+      
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      padding-left: 10%;
+      
+      font-weight: 400;
+      
+}
+
+#bot-text h3{
+
+    top: 85%;
+    left: 70%;
+    width: 50%;
+   
+    position: absolute;
+    
+    color: white;
+    font-weight: 400;
+    
+    font-size: 190%;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    
+
+}
